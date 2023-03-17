@@ -1,0 +1,33 @@
+@Tutorials(name: "text") {
+    @Intro(title: "Table of Contents") {
+        This tutorial will teach you how to create a survey app using XCode.
+        
+    }
+    
+    @Chapter(name: "Setting up the XCode Project") {
+        This will show you how to set up a new project on XCode and save it onto your computer.
+        
+        @Image(source: "xcode1.png", alt: "Image of XCode landing page.")
+
+        
+        @TutorialReference(tutorial: "doc:Setup")
+    }
+    
+    @Chapter(name: "Creating a New Playground") {
+        This will show you how to create a blank playground to write and test code.
+        
+        @Image(source: "playground0.png", alt: "Image of playground")
+        
+        @TutorialReference(tutorial: "doc:Playground")
+    }
+    
+    @Chapter(name: "Adding a button") {
+        This will show you how to add a button onto your application using the main storyboard.
+        
+        @Image(source: "button7.png", alt: "Image of button.")
+        
+        @TutorialReference(tutorial: "doc:Button")
+    }
+    
+    
+}

@@ -1,0 +1,34 @@
+@Tutorial(time: 5) {
+    @Intro(title: "Getting Started") {
+        This will teach you how to set up a new project on XCode.
+        
+    }
+    
+    @Section(title: "Selecting a New Project") {
+        @ContentAndMedia {
+            Create a new Xcode project that uses Swift and UIKit. Explore the canvas, previews, and the template code.
+
+            
+        }
+        
+        @Steps {
+            @Step {
+                Open Xcode and either click “Create a new Xcode project” in Xcode’s startup window, or choose File > New > Project. 
+                
+                @Image(source: "xcode1.png", alt: "Image of XCode landing page.")
+            }
+            
+            @Step {
+                In the template selector, select iOS as the platform, select the App template, and then click Next.
+                
+                @Image(source: "xcode2.png", alt: "Image of XCode template page.")
+            }
+            
+            @Step {
+                Enter “Survey” as the product name, select “Storyboard” for the interface and “Swift” for the language, and click Next. Choose a location to save the Survey project on your Mac.
+                @Image(source: "xcode3.png", alt: "Image of XCode template page.")
+            }
+            
+        }
+    }
+}

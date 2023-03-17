@@ -1,0 +1,57 @@
+@Tutorial(time: 10) {
+    @Intro(title: "Adding a Button") {
+        This tutorial will show you how to add a button to your storyboard.
+        
+    }
+    
+    @Section(title: "Storyboard") {
+        @ContentAndMedia {
+            
+            
+        }
+        
+        @Steps {
+            @Step {
+                Under the Project Navigator, click on Main.storyboard.
+                
+                @Image(source: "button1.png", alt: "Picture of Project Navigator")
+            }
+            
+            @Step {
+                Click on the + sign on the top right corner of the storyboard to add a new element. 
+                       
+                @Image(source: "button2.png", alt: "Picture of Button to Add new elements to storyboard")
+            }
+            
+            @Step {
+                Select "Button", drag and drop it onto the ViewController.
+                
+                @Image(source: "button3.png", alt: "Yes")
+            }
+            
+            @Step {
+                Customize the text by clicking on the text. Change the text to "Start Survey".
+                
+                @Image(source: "button4.png", alt: "Picture of text change in button")
+            }
+            
+            @Step {
+                Customize the height and width constraints of the button by clicking one of the buttons.
+                
+                @Image(source: "button5.png", alt: "Picture of constraint change in button")
+            }
+            
+            @Step {
+                Further customize the constraints by clicking on the button, pressing "Control" on your keyboard and dragging and dropping to the borders of the ViewController to manage leading and trailing spaces or other constraints. 
+                
+                @Image(source: "button6.png", alt: "Button of leading and trailing spaces")
+            }
+            
+            @Step {
+                Click on the button and change the color of the button using the panel on the right. Change the background color by clicking on "Background", and the text color by modifying "Tint"
+                
+                @Image(source: "button7.png", alt: "Picture of right panel")
+            }
+        }
+    }
+}

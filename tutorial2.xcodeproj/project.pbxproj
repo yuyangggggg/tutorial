@@ -16,6 +16,7 @@
 		26ACFA7229BD1BE700F4051F /* tutorial2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ACFA7129BD1BE700F4051F /* tutorial2Tests.swift */; };
 		26ACFA7C29BD1BE700F4051F /* tutorial2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ACFA7B29BD1BE700F4051F /* tutorial2UITests.swift */; };
 		26ACFA7E29BD1BE700F4051F /* tutorial2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ACFA7D29BD1BE700F4051F /* tutorial2UITestsLaunchTests.swift */; };
+		26ACFA8B29BD1CB900F4051F /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 26ACFA8A29BD1CB900F4051F /* Documentation.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		26ACFA7729BD1BE700F4051F /* tutorial2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tutorial2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26ACFA7B29BD1BE700F4051F /* tutorial2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorial2UITests.swift; sourceTree = "<group>"; };
 		26ACFA7D29BD1BE700F4051F /* tutorial2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorial2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26ACFA8A29BD1CB900F4051F /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		26ACFA4E29BD1BE500F4051F = {
 			isa = PBXGroup;
 			children = (
+				26ACFA8A29BD1CB900F4051F /* Documentation.docc */,
 				26ACFA5929BD1BE500F4051F /* tutorial2 */,
 				26ACFA7029BD1BE700F4051F /* tutorial2Tests */,
 				26ACFA7A29BD1BE700F4051F /* tutorial2UITests */,
@@ -261,6 +264,7 @@
 				26ACFA5F29BD1BE500F4051F /* ViewController.swift in Sources */,
 				26ACFA5B29BD1BE500F4051F /* AppDelegate.swift in Sources */,
 				26ACFA5D29BD1BE500F4051F /* SceneDelegate.swift in Sources */,
+				26ACFA8B29BD1CB900F4051F /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DOCC_EXTRACT_OBJC_INFO_FOR_SWIFT_SYMBOLS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tutorial2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DOCC_EXTRACT_OBJC_INFO_FOR_SWIFT_SYMBOLS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tutorial2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
