@@ -4,6 +4,48 @@
         
     }
     
+    @Assessments {
+            @MultipleChoice {
+                        How do we declare what happens after clicking a button programmatically?
+
+                        @Choice(isCorrect: false) {
+                            Dragging and dropping from the button on the storyboard.
+
+                            @Justification(reaction: "Try again!") {
+                                Remember, we are trying to declare a function programmatically.
+                            }
+                        }
+
+                        @Choice(isCorrect: true) {
+                            Declare an IBAction and connect it to the button in the storyboard.
+
+                            @Justification(reaction: "That's right!") {
+                                The IBAction will execute the function declared after the button is tapped.
+                            }
+                        }
+        }
+        
+        @MultipleChoice {
+                    How do we make use of the storyboard to create transitions after clicking the button?
+
+                    @Choice(isCorrect: false) {
+                        Declare an IBAction and connect it to the button in the storyboard.
+
+                        @Justification(reaction: "Try again!") {
+                            Declaring an IBAction involves adding code to a function and is not purely done on the storyboard.
+                        }
+                    }
+
+                    @Choice(isCorrect: true) {
+                        Dragging and dropping from the button on the storyboard.
+
+                        @Justification(reaction: "That's right!") {
+                            This allows you to choose a transition you want.
+                        }
+                    }
+    }
+    }
+    
     @Section(title: "Storyboard") {
         @ContentAndMedia {
             
@@ -48,10 +90,36 @@
             }
             
             @Step {
-                Click on the button and change the color of the button using the panel on the right. Change the background color by clicking on "Background", and the text color by modifying "Tint"
+                Click on the button and change the color of the button using the panel on the right. Change the background color by clicking on "Background", and the text color by modifying "Tint".
                 
                 @Image(source: "button7.png", alt: "Picture of right panel")
             }
+            
+            @Step {
+                To make the program move to another view controller when the button is tapped via the storyboard, first create another view controller. Click on the button, hold and drag to the new view controller, and release.
+                
+                @Image(source: "buttondragdrop.png", alt: "Dragging and dropping from button.")
+            }
+            
+            @Step {
+                Click on "Present Modally", or any appropriate transition.
+                
+                @Image(source: "button_transitions.png", alt: "Possible transitions from one ViewController to the next.")
+            }
+            
+            @Step {
+                Alternatively, we can determine what happens after the button clicked programmatically. Click on the ViewController under the Project Navigator, and declare an IBAction.
+                
+                @Image(source: "ibaction.png", alt: "Declaring an IBAction")
+            }
+            
+            @Step {
+                Connect the IBAction to the button. The code in the function will run after the button is tapped.
+                
+                @Image(source: "ibactiondrag.png", alt: "Connecting IBAction to button.")
+            }
+            
         }
-    }
 }
+    
+

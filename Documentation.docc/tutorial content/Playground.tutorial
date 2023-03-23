@@ -1,0 +1,26 @@
+@Tutorial(time: 5) {
+    @Intro(title: "Setting Up Playground") {
+        This will teach you how to set up a new playground to write and test code.
+        
+    }
+    
+    @Section(title: "Playground") {
+        @ContentAndMedia {
+            @Image(source: "playground0.png", alt: "Image of playground")
+        }
+        
+        @Steps {
+            @Step {
+                Press the + sign under the Project Navigator. Click on "File..."
+                
+                @Image(source: "playground1.png", alt: "Picture of + sign under project navigator")
+            }
+            
+            @Step {
+                Scroll down and select "Blank Playground".
+                
+                @Image(source: "playground2.png", alt: "Picture of blank playground selection")
+            }
+        }
+    }
+}
